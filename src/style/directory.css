@@ -1,0 +1,4 @@
+.directory {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /*css fraction unit, relative size of cols*/
+}
