@@ -1,10 +1,12 @@
 import './style/App.css';
-import Homepage from './components/homepage.jsx'
+import NavigationBar from "components/navigation_bar";
+import {Outlet} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <Homepage/>
+      <NavigationBar/>
+      <Outlet/>
     </div>
   );
 }

@@ -1,4 +1,3 @@
-import React from 'react';
 import MenuItem from 'components/menu_item'
 import 'style/directory.css'
 
