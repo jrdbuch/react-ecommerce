@@ -5,6 +5,7 @@ import App from 'App'
 
 import Home from 'routes/home/home.jsx';
 import Shop from 'routes/shop/shop.jsx';
+import SignIn from 'routes/sign-in/sign-in.jsx';
 
 import {
   BrowserRouter,
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
         <Route path="shop" element={<Shop />} />
+        <Route path="sign-in" element={<SignIn />}/>
       </Route>
     </Routes>
   </BrowserRouter>,
