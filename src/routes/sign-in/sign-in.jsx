@@ -1,17 +1,14 @@
-import { signInWithGooglePopup } from 'utils/firebase'
+import SignUpForm from 'components/sign-up-form';
+import SignInForm from 'components/sign-in-form';
+import Button from 'components/button.jsx'
+
 
 const SignIn = () => {
-    const logInWithGoogle = async () => {
-        const resp = await signInWithGooglePopup();
-        console.log(resp);
-    }
 
     return (
         <div>
-            <h1> Sign In Page1 </h1>
-            <button onClick={logInWithGoogle}>
-                Sign In With Google Popup
-            </button>
+            <SignUpForm/>
+            <SignInForm/>
         </div>
     )
 }
